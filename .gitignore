@@ -1,0 +1,14 @@
+/.bundle/
+/.yardoc
+/Gemfile.lock
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+
+# Ignore files that are not wanted in general
+.*
+_MACOSX
+*.db
