@@ -4,20 +4,20 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'bootplus/rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "bootplus-rails"
+  spec.name          = 'bootplus-rails'
   spec.version       = Bootplus::Rails::VERSION
-  spec.authors       = ["T145"]
-  spec.email         = ["gnosoman@gmail.com"]
+  spec.authors       = ['T145']
+  spec.email         = ['gnosoman@gmail.com']
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
-  spec.license       = "MIT"
+  spec.summary       = %q{Ruby gem for Bootplus assets}
+  spec.description   = %q{Ruby gem for Bootplus assets}
+  spec.homepage      = 'https://github.com/T145/bootplus-rails'
+  spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
+    spec.metadata['allowed_push_host'] = "'http://rubygems.org'"
   else
     raise 'RubyGems 2.0 or newer is required to protect against public gem pushes.'
   end
@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   # Rails compatiblity
-  spec.files = Dir['{lib,vendor}/**/*'] + ["MIT-LICENSE", "README.md"]
+  spec.files = Dir['{lib,vendor}/**/*'] + %w(MIT-LICENSE README.md)
   #spec.add_dependency "railties", "~> 3.1"
-  spec.add_dependency "font-awesome-rails"
+  spec.add_dependency 'font-awesome-rails'
 end
