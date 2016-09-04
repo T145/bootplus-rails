@@ -26,14 +26,15 @@ Once installed, just plop
 //= require bootstrap
 ```
 
-into your `application.js`, and
+into your `application.js` beneath the `require_self` statement, and
 
 ```css
-/* require bootplus */
-/* require font-awesome */
+ *= require bootplus
+ *= require bootplus-responsive
+ *= require font-awesome
 ```
 
-into your `application.css`. Enjoy!
+into your `application.css` beneath the `require_self` statement. Enjoy!
 
 ## Development
 
@@ -41,7 +42,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/bootplus-rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/T145/bootplus-rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
