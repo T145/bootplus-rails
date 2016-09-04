@@ -1,5 +1,6 @@
 module Bootplus
   module Rails
-    VERSION = '1.0.5'
+    # Freeze constant to prevent it from being mutated
+    VERSION = '1.0.5'.freeze
   end
 end
