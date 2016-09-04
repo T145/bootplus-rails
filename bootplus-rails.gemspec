@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   # Rails compatiblity
-  spec.files = Dir['{lib,vendor}/**/*'] + %w(LICENSE README.md)
+  spec.files = Dir['{lib,vendor}/**/*'] + %w(LICENSE.txt README.md)
   #spec.add_dependency "railties", "~> 3.1"
   spec.add_dependency 'font-awesome-rails'
 end
